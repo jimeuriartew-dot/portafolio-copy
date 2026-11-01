@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio personal de una estudiante de desarrollo web." />
+    <title>Portafolio de Jimena Uriarte</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegación principal">
+        
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a class="nav-cta" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Disponible para aprender y colaborar</p>
+          <h1 id="hero-title">Hola, soy <span>Jimena Uriarte.</span><br />Creo para la web.</h1>
+          <p class="hero-lede">
+            Estudiante de desarrollo web, explorando cómo convertir ideas en experiencias
+            digitales claras, útiles y memorables.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#proyectos">Ver proyectos <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#sobre-mi">Conóceme un poco <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-note">Actualmente aprendiendo <strong>HTML, CSS y JavaScript</strong></p>
+        </div>
+
+        <figure class="hero-art" aria-label="Ilustración abstracta de perfil">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="sun"></div>
+          <div class="art-card"><img class="profile-photo" src="images/profile.jpg" alt="Foto de Jimena Uriarte" /><small>DISEÑO · CÓDIGO · IDEAS</small></div>
+          <figcaption>Una idea a la vez, una línea de código a la vez.</figcaption>
+        </figure>
+      </section>
+
+      <section class="about section-pad" id="sobre-mi" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">01 / Un poco sobre mí</p>
+            <h2 id="about-title">Curiosidad que<br /><em>se convierte en código.</em></h2>
+          </div>
+          <div class="about-copy">
+            <p class="lead">Me interesa crear sitios que se sientan tan bien como funcionan.</p>
+            <p>
+              Soy estudiante y estoy construyendo mis bases en desarrollo web. Disfruto
+              aprender haciendo: probar una idea, entender por qué funciona y mejorarla
+              con cada iteración.
+            </p>
+            <p>
+              Fuera de la pantalla me inspiran <strong>el diseño, la música y resolver
+              problemas cotidianos</strong>. Este portafolio irá creciendo junto con mis
+              proyectos y aprendizajes.
+            </p>
+            <a class="text-link" href="#contacto">¿Tienes una idea? Hablemos <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-pad container" id="habilidades" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / Mi caja de herramientas</p>
+            <h2 id="skills-title">Habilidades en progreso</h2>
+          </div>
+          <p>Aprendo cada herramienta construyendo algo real.</p>
+        </div>
+        <ul class="skill-list" aria-label="Habilidades">
+          <li><span>01</span>HTML</li>
+          <li><span>02</span>CSS</li>
+          <li><span>03</span>Diseño responsive</li>
+          <li><span>04</span>Flexbox</li>
+          <li><span>05</span>Accesibilidad</li>
+          <li><span>06</span>Git &amp; GitHub</li>
+          <li><span>07</span>JavaScript</li>
+          <li><span>08</span>Figma</li>
+        </ul>
+      </section>
+
+      <section class="projects section-pad" id="proyectos" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">03 / Cosas que he creado</p>
+              <h2 id="projects-title">Proyectos seleccionados</h2>
+            </div>
+            <p>Pequeños pasos que cuentan una historia.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card card">
+              <a class="project-cover" href="#contacto" aria-label="Consultar sobre el proyecto Brisa">
+                <img src="images/project1.png" alt="Portada del proyecto Brisa, una página de bienestar" />
+              </a>
+              <div class="project-meta"><span>01 — Página de aterrizaje</span><span>2026</span></div>
+              <h3>Brisa</h3>
+              <p>Una landing page tranquila para una marca de bienestar ficticia.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+            </article>
+
+            <article class="project-card card">
+              <a class="project-cover" href="#contacto" aria-label="Consultar sobre el proyecto Minuto">
+                <img src="images/project2.png" alt="Portada del proyecto Minuto, una aplicación para organizar tareas" />
+              </a>
+              <div class="project-meta"><span>02 — Aplicación de tareas</span><span>2026</span></div>
+              <h3>Minuto</h3>
+              <p>Una interfaz sencilla para organizar el día con calma.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>UI design</span></div>
+            </article>
+
+            <article class="project-card card">
+              <a class="project-cover" href="#contacto" aria-label="Consultar sobre el proyecto CRM">
+                <img src="images/project3.png" alt="Portada del proyecto CRM, un panel para gestionar clientes" />
+              </a>
+              <div class="project-meta"><span>03 — Gestión de clientes</span><span>2026</span></div>
+              <h3>CRM</h3>
+              <p>Un panel para organizar clientes, oportunidades y seguimientos.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>Flexbox</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad container" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div class="contact-copy">
+            <p class="eyebrow">04 / Tu turno</p>
+            <h2 id="contact-title">¿Hacemos algo<br /><em>bueno juntos?</em></h2>
+            <p>Cuéntame qué tienes en mente. Siempre hay espacio para una buena conversación.</p>
+            <a class="contact-email" href="mailto:hola@ejemplo.com">
+              hola@ejemplo.com <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <form class="contact-form" action="#contacto" method="get">
+            <label for="nombre">Tu nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="¿Cómo te llamas?" required />
+
+            <label for="email">Tu correo</label>
+            <input id="email" name="email" type="email" placeholder="tu@correo.com" required />
+
+            <label for="mensaje">¿Qué tienes en mente?</label>
+            <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntame un poco..." required></textarea>
+
+            <button class="button button-light" type="submit">Enviar mensaje <span aria-hidden="true">↗</span></button>
+            <p class="form-note">Formulario de muestra; conecta un servicio para recibir mensajes.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        
+        <p>Hecho con curiosidad y café. © 2026 Jimena Uriarte</p>
+        <ul class="social-links">
+          <li><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
